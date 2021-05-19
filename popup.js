@@ -1,6 +1,5 @@
-function redirect() {
-    chrome.runtime.sendMessage({ "message": "http://www.seriouseats.com" });
-}
+var link = "https://www.seriouseats.com/";
+
 
 function popup() {
     chrome.tabs.query({ currentWindow: true, active: true }, function (tabs) {
@@ -10,6 +9,15 @@ function popup() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    // document.getElementById("aButton").addEventListener("click", redirect);
-    document.getElementById("aButton").addEventListener("click", popup);
+    document.getElementById("appTitle").addEventListener("click", redirect);
+    // link = document.getElementById("Breakfast").value;
+    // document.getElementById("Breakfast").addEventListener("click", redirect);
+    document.getElementById("Breakfast").addEventListener("click", popup);
 });
+
+
+// 
+
+function redirect() {
+    chrome.runtime.sendMessage({ "message": link});
+}
