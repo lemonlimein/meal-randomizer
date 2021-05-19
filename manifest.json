@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "serious eats randomizor",
+  "description": "www.seriouseats.com random meal pick",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs",
+    "*://*.seriouseats.com/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "version": "0.1",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "SER",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.seriouseats.com/*"
+      ],
+      "js": [
+        "script.js"
+      ]
+    }
+  ]
+}
