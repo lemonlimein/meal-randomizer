@@ -4,5 +4,4 @@
 
 
 <h3>This is a demo video of my serious eats chrome extension :arrow_up:
-<br><br>The files can be uploaded to chrome in ['chrome-extensions']("chrome://extensions") with 'devolper mode' toggled on
-[gallery demo :space_invader:] (https://lemonlimein.github.io/gameDisplay/) 
+<br><br>The files can be uploaded to chrome in chrome://extensions with 'devolper mode' toggled on
