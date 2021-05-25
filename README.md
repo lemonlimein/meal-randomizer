@@ -5,6 +5,7 @@
 
  
 <h3><br>The files can be uploaded to chrome or brave browser by: 
-<h4>-  going to chrome://extensions
+<h4>-  cloning / downloading zip & unpacking folder
+<br>-  going to chrome://extensions
 <br>-  toggle on 'devolper mode'
 <br>-  then click 'load unpacked'
