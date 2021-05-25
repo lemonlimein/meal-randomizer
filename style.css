@@ -47,5 +47,17 @@ button:hover{
 	background-color: #26B4C4;
 	cursor: pointer;
 	transform: scale(1.1);
-    transition: all 200ms ease-out;
+    transition: background-color transform 200ms ease-out;
+}
+
+button:hover i:nth-child(odd){
+	display: none;
+}
+
+button i:nth-child(even){
+	display: none;
+}
+
+button:hover i:nth-child(even){
+	display: inline-block;
 }

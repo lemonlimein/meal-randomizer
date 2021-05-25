@@ -3,8 +3,6 @@
   "name": "serious eats randomizor",
   "description": "www.seriouseats.com random meal pick",
   "permissions": [
-    "storage",
-    "activeTab",
     "background",
     "tabs",
     "*://*.seriouseats.com/*"
