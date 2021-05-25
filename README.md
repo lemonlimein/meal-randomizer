@@ -4,4 +4,4 @@
 
 
 <h2>This is a demo video of my serious eats chrome extension
-<h2>The files can be uploaded to chrome in "chrome://extensions" with 'devolper mode' toggled on
+<br>The files can be uploaded to chrome in "chrome://extensions" with 'devolper mode' toggled on
