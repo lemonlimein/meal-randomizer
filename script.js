@@ -1,7 +1,6 @@
-if (runFlag) {
+if (typeof runFlag !== "undefined") {
   truncatedItemCheck();
 }
-
 
 function truncatedItemCheck() {
   let length = document.getElementsByClassName("truncated-list__item-link").length;
