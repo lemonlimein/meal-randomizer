@@ -4,4 +4,6 @@
 
 
 <h3>This is a demo video of my serious eats chrome extension :arrow_up:
-<br><br>The files can be uploaded to chrome in "chrome://extensions" with 'devolper mode' toggled on
+<br><br>The files can be uploaded to chrome in chrome://extensions with 'devolper mode' toggled on
+
+[gallery demo :space_invader:](chrome://extensions) 
