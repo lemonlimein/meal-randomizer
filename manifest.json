@@ -5,13 +5,15 @@
   "permissions": [
     "storage",
     "activeTab",
+    "background",
     "tabs",
     "*://*.seriouseats.com/*"
   ],
   "background": {
     "scripts": [
       "background.js"
-    ]
+    ],
+    "persistent": false
   },
   "version": "0.1",
   "browser_action": {
