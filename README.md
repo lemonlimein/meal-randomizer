@@ -4,4 +4,7 @@
 
 
 <h3>This is a demo video of my serious eats chrome extension :arrow_up:
-<br><br>The files can be uploaded to chrome by going to: chrome://extensions with 'devolper mode' toggled on, then by clicking 'load unpacked'
+<br><br>The files can be uploaded to chrome by: 
+  going to chrome://extensions
+  toggle on'devolper mode'
+  then click 'load unpacked'
