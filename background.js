@@ -3,14 +3,14 @@ chrome.runtime.onMessage.addListener(function (request) {
     chrome.tabs.create({ url: request.link });
     console.log('tab created...');
     chrome.tabs.executeScript({
-      code: 'runFlag = true;'
+      code: 'let runFlag = true;'
     });
   }
   if(request.message == 'change'){
     chrome.tabs.create({ url: request.link });
     console.log('tab changed...');
     chrome.tabs.executeScript({
-      code: 'runFlag = true;'
+      code: 'let runFlag = true;'
     });
   }
 });
