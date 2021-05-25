@@ -1,6 +1,7 @@
 # meal-randomizer
 
 
+#Demo:#
+https://user-images.githubusercontent.com/62027916/119535044-9a16fe00-bd55-11eb-881a-d79bdd76da5f.mov
 
-https://user-images.githubusercontent.com/62027916/119534467-f1689e80-bd54-11eb-93b1-e38b1e506fe2.mov
 
