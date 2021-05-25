@@ -9,9 +9,9 @@ function truncatedItemCheck() {
     finalPick();
   } else {
     let item = document.getElementsByClassName("truncated-list__item-link")[pickItem(length)];
-    // window.location.pathname = item.pathname;
     let link = item.href;
     chrome.runtime.sendMessage({ "message": "change", "link": link});
+    window.close();
   }
 }
 
