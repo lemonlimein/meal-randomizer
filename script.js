@@ -4,7 +4,7 @@ if (typeof runFlag !== "undefined") {
 
 function truncatedItemCheck() {
   let length = document.getElementsByClassName("truncated-list__item-link").length;
-  if (length == 0) {
+  if (length < 2) {
     finalPick();
   } else {
     let item = document.getElementsByClassName("truncated-list__item-link")[pickItem(length)];
